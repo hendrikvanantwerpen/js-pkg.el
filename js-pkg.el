@@ -1,4 +1,3 @@
-(require 'cl)
 (require 's)
 (require 'json)
 (require 'semver)
