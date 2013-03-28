@@ -186,7 +186,8 @@
 (defun js-pkg-info-write (pkg-info)
   (js-pkg--write-file
    (json-encode (js-pkg-info-json pkg-info))
-   (js-pkg-info-file pkg-info)))
+   (js-pkg-info-file pkg-info))
+  (js-pkg--update-pkgs))
 
 (defun js-pkg--file-last-changed (file)
   (let* ((previous-buffer (find-buffer-visiting file)))
