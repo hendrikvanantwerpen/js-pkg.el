@@ -16,12 +16,12 @@ Manually: put js-pkg.el file in your load-path and (require 'js-pkg).
 
 El-get: Evaluate the following snippet and install with el-get-install.
 
-   (setq el-get-sources
-    (cons '(:name js-pkg
-            :type github
-            :pkgname "hendrikvanantwerpen/js-pkg.el"
-            :depends (semver json s))
-          el-get-sources))
+    (setq el-get-sources
+     (cons '(:name js-pkg
+             :type github
+             :pkgname "hendrikvanantwerpen/js-pkg.el"
+             :depends (semver json s))
+           el-get-sources))
 
 License
 -------
