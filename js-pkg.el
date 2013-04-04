@@ -4,7 +4,7 @@
 
 ;; Author: Hendrik van Antwerpen <hendrik@van-antwerpen.net>
 ;; Version: 0.2.0
-;; Package-Requires: ((semver "0.2.0") (json "1.2") (dash "1.1.0") (s "1.3.1"))
+;; Package-Requires: ((semver "0.2.0") (json "1.2") (s "1.3.1"))
 
 ;; This file is not part of GNU Emacs.
 
