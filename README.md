@@ -23,6 +23,11 @@ El-get: Evaluate the following snippet and install with el-get-install.
              :depends (semver json s))
            el-get-sources))
 
+Ideas
+-----
+
+ * Change the functions that take a resource to accept optional semver predicates and use the highest package version. If predicates are provided, use the highest package version that matches a predicate.
+
 License
 -------
 
